@@ -130,15 +130,15 @@ formatter.match({
   "location": "Steps.ipvanish_is_accessible()"
 });
 formatter.result({
-  "duration": 451308954,
+  "duration": 792430031,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_am_logged()"
 });
 formatter.result({
-  "duration": 1397343,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:22)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
+  "duration": 1291817,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:25)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
   "status": "pending"
 });
 formatter.match({
@@ -205,15 +205,15 @@ formatter.match({
   "location": "Steps.ipvanish_is_accessible()"
 });
 formatter.result({
-  "duration": 129363,
+  "duration": 4462749,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_am_logged()"
 });
 formatter.result({
-  "duration": 158306,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:22)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
+  "duration": 210909,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:25)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
   "status": "pending"
 });
 formatter.match({
@@ -280,15 +280,15 @@ formatter.match({
   "location": "Steps.ipvanish_is_accessible()"
 });
 formatter.result({
-  "duration": 48958,
+  "duration": 5034405,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_am_logged()"
 });
 formatter.result({
-  "duration": 134239,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:22)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
+  "duration": 247504,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:25)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
   "status": "pending"
 });
 formatter.match({
@@ -355,15 +355,15 @@ formatter.match({
   "location": "Steps.ipvanish_is_accessible()"
 });
 formatter.result({
-  "duration": 100271,
+  "duration": 7001450,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_am_logged()"
 });
 formatter.result({
-  "duration": 267874,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:22)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
+  "duration": 254486,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:25)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
   "status": "pending"
 });
 formatter.match({
@@ -430,15 +430,15 @@ formatter.match({
   "location": "Steps.ipvanish_is_accessible()"
 });
 formatter.result({
-  "duration": 68455,
+  "duration": 4871984,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_am_logged()"
 });
 formatter.result({
-  "duration": 260568,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:22)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
+  "duration": 222139,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:25)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
   "status": "pending"
 });
 formatter.match({

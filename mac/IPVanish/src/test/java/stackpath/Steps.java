@@ -4,6 +4,8 @@ import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.junit.Assert;
+import stackpath.util.AppHelper;
 import stackpath.util.Configuration;
 
 
@@ -13,7 +15,8 @@ public class Steps {
 
     @Given("^IPVanish is accessible$")
     public void ipvanish_is_accessible() throws Throwable {
-        System.out.println(CONFIGURATION.getApplicationPath());
+        Assert.assertTrue(
+                "application is not accessible ", AppHelper.launchApp());
     }
 
     @Given("^I am logged$")
