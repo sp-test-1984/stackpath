@@ -64,6 +64,12 @@
       <artifactId>jaxb-api</artifactId>
       <version>2.2.11</version>
     </dependency>
+    <!-- sikuliX (image recognition)-->
+    <dependency>
+      <groupId>org.sikuli</groupId>
+      <artifactId>sikuli-api</artifactId>
+      <version>${sikulix.version}</version>
+    </dependency>
   </dependencies>
 
   <build>

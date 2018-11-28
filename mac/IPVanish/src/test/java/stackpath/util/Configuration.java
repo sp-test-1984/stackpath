@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.typesafe.config.Config;
 import com.typesafe.config.ConfigFactory;
+import org.sikuli.script.Screen;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,6 +23,7 @@ public class Configuration {
     private static final Validator VALIDATOR = Validation.buildDefaultValidatorFactory().getValidator();
     private static final ObjectMapper MAPPER = buildMapper();
     private static final Configuration CONFIGURATION = buildSingleton(BASE_CONFIG);
+    private static final Screen SCREEN = new Screen();
 
     @Valid
     @NotNull
@@ -51,6 +53,10 @@ public class Configuration {
 
     public static Configuration getConfiguration(){
         return CONFIGURATION;
+    }
+
+    public static Screen getScreen() {
+        return SCREEN;
     }
 
     private static ObjectMapper buildMapper(){

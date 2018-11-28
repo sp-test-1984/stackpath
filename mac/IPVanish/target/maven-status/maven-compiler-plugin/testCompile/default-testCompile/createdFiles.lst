@@ -1,4 +1,5 @@
+stackpath/util/Configuration.class
 stackpath/util/AppHelper.class
+stackpath/util/Images.class
 stackpath/RunnerTest.class
 stackpath/Steps.class
-stackpath/util/Configuration.class

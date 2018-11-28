@@ -90,6 +90,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 2364830439,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 12,
   "name": "User must be able  to establish a successful connection with all available protocols.",
@@ -130,16 +134,15 @@ formatter.match({
   "location": "Steps.ipvanish_is_accessible()"
 });
 formatter.result({
-  "duration": 792430031,
+  "duration": 92831427,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_am_logged()"
 });
 formatter.result({
-  "duration": 1291817,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:25)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
-  "status": "pending"
+  "duration": 4558358257,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -151,19 +154,30 @@ formatter.match({
   "location": "Steps.i_select(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 9716615102,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.attempt_connection()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 19007682446,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_should_successfully_connect()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 305300151,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 8002245765,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 145020746,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 13,
@@ -205,16 +219,15 @@ formatter.match({
   "location": "Steps.ipvanish_is_accessible()"
 });
 formatter.result({
-  "duration": 4462749,
+  "duration": 8270766,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_am_logged()"
 });
 formatter.result({
-  "duration": 210909,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:25)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
-  "status": "pending"
+  "duration": 4114902986,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -226,19 +239,30 @@ formatter.match({
   "location": "Steps.i_select(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 9702803261,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.attempt_connection()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 12991588402,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_should_successfully_connect()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 298844693,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 7923758944,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 143479978,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 14,
@@ -280,16 +304,15 @@ formatter.match({
   "location": "Steps.ipvanish_is_accessible()"
 });
 formatter.result({
-  "duration": 5034405,
+  "duration": 7911093,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_am_logged()"
 });
 formatter.result({
-  "duration": 247504,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:25)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
-  "status": "pending"
+  "duration": 4132185454,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -301,19 +324,30 @@ formatter.match({
   "location": "Steps.i_select(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 9662722149,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.attempt_connection()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 19775849735,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_should_successfully_connect()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 178177387,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 7953834294,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 134686929,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 15,
@@ -355,16 +389,15 @@ formatter.match({
   "location": "Steps.ipvanish_is_accessible()"
 });
 formatter.result({
-  "duration": 7001450,
+  "duration": 8730824,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_am_logged()"
 });
 formatter.result({
-  "duration": 254486,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:25)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
-  "status": "pending"
+  "duration": 4133304942,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -376,19 +409,30 @@ formatter.match({
   "location": "Steps.i_select(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 9675874107,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.attempt_connection()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 12944841197,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_should_successfully_connect()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 188690696,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 7940857104,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 135191814,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 16,
@@ -430,16 +474,15 @@ formatter.match({
   "location": "Steps.ipvanish_is_accessible()"
 });
 formatter.result({
-  "duration": 4871984,
+  "duration": 8696879,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_am_logged()"
 });
 formatter.result({
-  "duration": 222139,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.i_am_logged(Steps.java:25)\n\tat ✽.And I am logged(quick_connect.feature:4)\n",
-  "status": "pending"
+  "duration": 4124635294,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -451,18 +494,25 @@ formatter.match({
   "location": "Steps.i_select(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4003957013,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.attempt_connection()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 12919293030,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_should_successfully_connect()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 145615891,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 7923687745,
+  "status": "passed"
 });
 });
