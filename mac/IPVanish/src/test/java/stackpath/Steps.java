@@ -78,14 +78,10 @@ public class Steps {
             takeANap();
             CONFIGURATION.getScreen().click(Images.ALLOW);
             CONFIGURATION.getScreen().type(Images.KEYPASSWORD, "vico2018");
-            //CONFIGURATION.getScreen().click(Images.ALLOW);
-            //CONFIGURATION.getScreen().type(Images.NEAGENT, "vico2018");
-
             allMatches(Images.ALWAYSALLOW);
             CONFIGURATION.getScreen().hover(Images.ALWAYSALLOW);
             CONFIGURATION.getScreen().click(Images.ALWAYSALLOW);
             takeANap();
-            //CONFIGURATION.getScreen().click(Images.ALWAYSALLOW);
         } catch (FindFailed findFailed) {
 
         }
