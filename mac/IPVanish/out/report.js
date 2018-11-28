@@ -126,25 +126,43 @@ formatter.step({
   "name": "I should successfully connect",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Steps.ipvanish_is_accessible()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 163332251,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.ipvanish_is_accessible(Steps.java:13)\n\tat ✽.Given IPVanish is accessible(quick_connect.feature:3)\n",
+  "status": "pending"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Steps.i_am_logged()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ikev2",
+      "offset": 10
+    }
+  ],
+  "location": "Steps.i_select(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.attempt_connection()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.i_should_successfully_connect()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 13,
@@ -182,25 +200,43 @@ formatter.step({
   "name": "I should successfully connect",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Steps.ipvanish_is_accessible()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 347718,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.ipvanish_is_accessible(Steps.java:13)\n\tat ✽.Given IPVanish is accessible(quick_connect.feature:3)\n",
+  "status": "pending"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Steps.i_am_logged()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "tcp",
+      "offset": 10
+    }
+  ],
+  "location": "Steps.i_select(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.attempt_connection()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.i_should_successfully_connect()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 14,
@@ -238,25 +274,43 @@ formatter.step({
   "name": "I should successfully connect",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Steps.ipvanish_is_accessible()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 283445,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.ipvanish_is_accessible(Steps.java:13)\n\tat ✽.Given IPVanish is accessible(quick_connect.feature:3)\n",
+  "status": "pending"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Steps.i_am_logged()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ipsec",
+      "offset": 10
+    }
+  ],
+  "location": "Steps.i_select(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.attempt_connection()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.i_should_successfully_connect()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 15,
@@ -294,25 +348,43 @@ formatter.step({
   "name": "I should successfully connect",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Steps.ipvanish_is_accessible()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 298165,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.ipvanish_is_accessible(Steps.java:13)\n\tat ✽.Given IPVanish is accessible(quick_connect.feature:3)\n",
+  "status": "pending"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Steps.i_am_logged()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "l2tp",
+      "offset": 10
+    }
+  ],
+  "location": "Steps.i_select(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.attempt_connection()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.i_should_successfully_connect()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 16,
@@ -350,24 +422,42 @@ formatter.step({
   "name": "I should successfully connect",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Steps.ipvanish_is_accessible()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 286961,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat stackpath.Steps.ipvanish_is_accessible(Steps.java:13)\n\tat ✽.Given IPVanish is accessible(quick_connect.feature:3)\n",
+  "status": "pending"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Steps.i_am_logged()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "udp",
+      "offset": 10
+    }
+  ],
+  "location": "Steps.i_select(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.attempt_connection()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.i_should_successfully_connect()"
+});
+formatter.result({
+  "status": "skipped"
 });
 });
