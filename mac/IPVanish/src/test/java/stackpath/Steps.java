@@ -4,13 +4,16 @@ import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import stackpath.util.Configuration;
+
 
 public class Steps {
 
+    private static final Configuration CONFIGURATION = Configuration.getConfiguration();
+
     @Given("^IPVanish is accessible$")
     public void ipvanish_is_accessible() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        System.out.println(CONFIGURATION.getApplicationPath());
     }
 
     @Given("^I am logged$")

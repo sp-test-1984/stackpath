@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: stackpath.RunnerTest
 -------------------------------------------------------------------------------
-Tests run: 35, Failures: 0, Errors: 0, Skipped: 30, Time elapsed: 0.54 sec
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 25, Time elapsed: 0.823 sec
